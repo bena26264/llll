@@ -40,7 +40,7 @@ def predict():
     result = model.predict(input_query)[0]
 
 
-
+#hello
     return jsonify({'xAttack':str(result)})
 
 if __name__=='__main__':
